@@ -11,3 +11,43 @@ header {
     min-height: 500px;
     background-color: #1abc9c;
 }
+
+.white {
+    min-height: 300px;
+    min-width: 300px;
+    background-color: white;
+}
+
+.red {
+    background-color: #ba4b63;
+    min-height: 400px;
+}
+
+.light-lightblue {
+    background-color: #1ea4b6;
+    min-height: 400px;
+}
+
+.black {
+    background-color: black;
+    min-height: 400px;
+}
+
+.lightblue {
+    background-color: #1c83c1;
+    min-height: 400px;
+}
+
+.blue {
+    background-color: #0e38b5;
+    min-height: 400px;
+}
+
+.brown {
+    background-color: #ccb2a3;
+    min-height: 400px;
+}
+
+.border-radius {
+    border-radius: 20px;
+}
