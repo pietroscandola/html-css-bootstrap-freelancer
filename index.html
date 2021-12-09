@@ -16,12 +16,27 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="row h-50 align-items-center justify-content-between">
-                <div class="col fw-bold text-white">START BOOTSTRAP</div>
-                <div class="col text-white text-end"><i class="bi bi-list"></i></div>
+        <nav class="navbar navbar-expand-md ">
+            <div class="container-md">
+                <a class="navbar-brand text-white fw-bold" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item text-white">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <section class="jumbotron">
@@ -32,30 +47,42 @@
     <section>
         <h2 class="text-center m-5">PORTFOLIO</h2>
         <div class="container">
-            <div class="row">
+            <div class="row g-5">
 
-                <div class="col-12 d-flex border-radius red g-5 justify-content-center align-items-center">
-                    <div class="white rounded-circle"></div>
+                <div class="col-12 col-sm-6 ">
+                    <div class="d-flex border-radius red justify-content-center align-items-center">
+                        <div class="white rounded-circle"></div>
+                    </div>
                 </div>
 
-                <div class="col-12 d-flex border-radius light-lightblue g-5 justify-content-center align-items-center">
-                    <div class="white rounded-circle"></div>
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex border-radius light-lightblue justify-content-center align-items-center">
+                        <div class="white rounded-circle"></div>
+                    </div>
                 </div>
 
-                <div class="col-12 d-flex border-radius black g-5 justify-content-center align-items-center">
-                    <div class="white rounded-circle"></div>
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex border-radius black justify-content-center align-items-center">
+                        <div class="white rounded-circle"></div>
+                    </div>
                 </div>
 
-                <div class="col-12 d-flex border-radius lightblue g-5 justify-content-center align-items-center">
-                    <div class="white rounded-circle"></div>
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex border-radius lightblue justify-content-center align-items-center">
+                        <div class="white rounded-circle"></div>
+                    </div>
                 </div>
 
-                <div class="col-12 d-flex border-radius blue g-5 justify-content-center align-items-center">
-                    <div class="white rounded-circle"></div>
+                <div class="col-12 col-sm-6 ">
+                    <div class="d-flex border-radius blue justify-content-center align-items-center">
+                        <div class="white rounded-circle"></div>
+                    </div>
                 </div>
 
-                <div class="col-12 d-flex border-radius brown g-5 justify-content-center align-items-center">
-                    <div class="white rounded-circle"></div>
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex border-radius brown justify-content-center align-items-center">
+                        <div class="white rounded-circle"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,10 +92,10 @@
         <div class="container p-5">
             <h2 class="text-white text-center p-5 fw-bold">ABOUT</h2>
             <div class="row">
-                <div class="col-12 text-white text-center g-5 fs-3">
+                <div class="col-12 col-sm-6 text-white text-center g-5 fs-3">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos in sunt cumque, sequi ut quaerat, molestiae provident unde quibusdam ab, eligendi doloribus natus voluptatem qui odit ullam tempore maxime sint!
                 </div>
-                <div class="col-12 text-white text-center g-5 fs-3">
+                <div class="col-12 col-sm-6 text-white text-center g-5 fs-3">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita repellat illum doloremque voluptates blanditiis nulla velit vero rem omnis, adipisci dolore excepturi, repellendus officia inventore incidunt laboriosam magnam possimus?
                 </div>
             </div>
@@ -90,19 +117,21 @@
 
     <section class="location p-5">
         <div class="container">
+            <div class="row gy-5">
 
-            <div class="m-3">
-                <h4 class="text-center text-white">LOCATION</h4>
-                <p class="text-center text-white">2215 John Daniel Drive Clark, MO 54243</p>
-            </div>
+                <div class="col-12 col-sm-4">
+                    <h4 class="text-center text-white">LOCATION</h4>
+                    <p class="text-center text-white">2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
 
-            <div class="m-5">
-                <h4 class="text-center text-white">AROUND THE WEB</h4>
-            </div>
+                <div class="col-12 col-sm-4">
+                    <h4 class="text-center text-white">AROUND THE WEB</h4>
+                </div>
 
-            <div class="m-3">
-                <h4 class="text-center text-white">ABOUT FREELANCER</h4>
-                <p class="text-center text-white">Freelance is a free to use, opensource Bootstrap.</p>
+                <div class="col-12 col-sm-4">
+                    <h4 class="text-center text-white">ABOUT FREELANCER</h4>
+                    <p class="text-center text-white">Freelance is a free to use, opensource Bootstrap.</p>
+                </div>
             </div>
         </div>
     </section>
