@@ -51,3 +51,11 @@ header {
 .border-radius {
     border-radius: 20px;
 }
+
+
+/* ABOUT */
+
+.about {
+    min-height: 600px;
+    background-color: #1abc9c;
+}
