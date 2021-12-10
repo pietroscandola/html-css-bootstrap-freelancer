@@ -112,13 +112,13 @@
             </div>
 
             <div class="text-center m-3 p-4">
-                <button type="button" class="btn btn-secondary bg-teal border border-white"><i class="bi bi-download pe-3"></i>Download</button>
+                <button type="button" class="btn btn-primary bg-teal border border-white"><i class="bi bi-download pe-3"></i>Download</button>
             </div>
 
         </div>
     </section>
 
-    <section id="contact-me" class="contact m-5">
+    <section id="contact-me" class="m-5">
         <div class="container">
 
             <div class="row">
@@ -127,19 +127,35 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col offset-lg-1 col-lg-10">
-                    <ul class="list-unstyled">
-                        <li>Name</li>
-                        <li>Email Address</li>
-                        <li>Phone Number</li>
-                        <li>Message</li>
-                        <li>Send</li>
-                    </ul>
+            <form>
+                <div class="mb-3 row">
+                    <label for="name" class="form-label col-2">Name</label>
+                    <div class="col-10">
+                        <input type="text" class="form-control col-10" id="name">
+                    </div>
                 </div>
-            </div>
+                <div class="mb-3 row">
+                    <label for="email" class="form-label col-2">Email Address</label>
+                    <div class="col-10">
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="tel" class="form-label col-2">Phone Number</label>
+                    <div class="col-10">
+                        <input type="tel" class="form-control" id="tel">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="text-area" class="form-label">Message</label>
+                    <textarea type="email" class="form-control" id="text-area"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary bg-teal border-0 mb-4">Send</button>
+            </form>
         </div>
     </section>
+
+    <!-- FOOTER -->
 
     <footer>
         <div class="footer-top">

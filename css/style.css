@@ -28,8 +28,13 @@ header {
 
 /* CONTACT */
 
-.contanct {
+#contanct-me {
     min-height: 500px;
+}
+
+#contact-me .form-control {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
 }
 
 
