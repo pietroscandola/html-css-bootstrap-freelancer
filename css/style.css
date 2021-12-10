@@ -13,46 +13,6 @@ header {
     background-color: #1abc9c;
 }
 
-.white {
-    min-height: 200px;
-    min-width: 200px;
-    background-color: white;
-}
-
-.red {
-    background-color: #ba4b63;
-    min-height: 300px;
-}
-
-.light-lightblue {
-    background-color: #1ea4b6;
-    min-height: 300px;
-}
-
-.black {
-    background-color: black;
-    min-height: 300px;
-}
-
-.lightblue {
-    background-color: #1c83c1;
-    min-height: 300px;
-}
-
-.blue {
-    background-color: #0e38b5;
-    min-height: 300px;
-}
-
-.brown {
-    background-color: #ccb2a3;
-    min-height: 300px;
-}
-
-.border-radius {
-    border-radius: 20px;
-}
-
 
 /* ABOUT */
 
