@@ -17,7 +17,11 @@ header {
 /* ABOUT */
 
 .about {
-    min-height: 600px;
+    min-height: 400px;
+    background-color: #1abc9c;
+}
+
+.bg-teal {
     background-color: #1abc9c;
 }
 
